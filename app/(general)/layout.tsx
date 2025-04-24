@@ -1,9 +1,7 @@
-import type { Metadata } from "next";
 import "../globals.css";
 import { Navbar } from "@/components";
 export default function AboutLayout({
- children,
- metadata
+ children
 }: {
  children: React.ReactNode;
 }) {
