@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import style from "./ActiveLink.module.css";
 
 interface Props {
     path: string;
@@ -6,6 +7,6 @@ interface Props {
 }
 export const ActiveLink = ({path, text}: Props) => {
   return (
-    <Link href={path}>{text}</Link>
+    <Link className={style.link} href={path}>{text}</Link>
   )
 }

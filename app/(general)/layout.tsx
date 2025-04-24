@@ -11,7 +11,6 @@ export default function AboutLayout({
     <>
     <Navbar />    
     <main className="flex flex-col items-center justify-center min-h-screen p-4">
-      <h1>Hello Root Layout About</h1>
       {children}
     </main>
     </>
